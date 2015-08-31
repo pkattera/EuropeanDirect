@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+  <title>European Direct – we import luxury cars to New Zealand</title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/screen.css">
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+
+<div id='layout'>
+
+<header>
+  <div class="row">
+    <div class="twelve columns">
+      <h1><a href="index.html"><img src="images/logo.png" alt="European Direct, New Zealand" title="Click to return to European Direct homepage" /></a></h1>
+        <h2>GET YOUR DREAM CAR IMPORTED <span>AND DELIVERED TO NZ</span></h2>
+        <a class="radius button" href="contact.php">CONTACT US</a>
+    </div>
+  </div>
+</header>
+
+  <div class="row">
+    <div class="twelve columns">
+    <h1>WHOOPS!</h1>
+    <h3>The page you were trying to reach doesn't exist.</h3>
+    <h3>Go back to the <a href="index.html">home page</a></h3>
+
+    </div>
+  </div>
+  <div id='layout_footer'></div>
+
+
+</div>
+
+ <div id='footer'>
+  <footer>
+      <div class="row">
+        <div class="twelve columns">
+          <ul>
+            <li><!-- <img src="images/small_logo.png" alt="European Direct Logo"/> -->European Direct </li>
+            <!-- <li><a class="radius button" href="#">CONTACT US</a></li> -->
+            <li><img src="images/mail.png" alt="European Luxury Card"/><a href="mailto:info@europeandirect.co.nz?Subject=Car%20Question">info@europeandirect.co.nz</a></li>
+            <li><img src="images/phone.png" alt="Phone icon"/><a href="tel:+642108295579">+64 21 082 95579</a></li>
+        </div>
+      </div>  
+  </footer>
+</div>
+
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/jquery.js"></script>
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38838553-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+   
+</body>
+</html>
